@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "myappmeteo",
+    "slug": "myappmeteo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.votreentreprise.votre-nom-d-application",
+      "permissions": ["ACCESS_FINE_LOCATION"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.votreentreprise.votre-nom-d-application",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Nous avons besoin de votre emplacement pour fournir des informations météorologiques."
+      }
+    },
+    "description": "Une description de votre application",
+    "permissions": ["CAMERA", "LOCATION", "NOTIFICATIONS"]
+  }
+}
